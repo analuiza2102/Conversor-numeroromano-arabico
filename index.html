@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
 
 
     <!--fonts-->
@@ -19,15 +24,38 @@
 </head>
 <body>
 
-  <form id="converterForm">
-    <label for="numero">Digite um número romano ou arábico:</label>
-    <label class="subtitle" for="text">APENAS LETRAS MAIÚSCULAS</label>
-    <input type="text" id="numero" name="numero" required>
-    <button type="submit">Converter</button>
-  </form>
 
-  <div id="resultado"></div>
+      <header class="header">
+            <nav>
+              <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./amostragem.html">Amostragem</a></li>
+                <li><a href="#converterForm">Conversor</a></li>
+              </ul>
+            </nav> 
+      </header>
+
+
+
     
+
+          <form id="converterForm" >
+            <div class="divform">
+              <label for="numero">Digite um número romano ou arábico:</label>
+              <label class="subtitle" for="text">Para números romanos insira por favor apenas letras maiusculas</label>
+              <input type="text" id="numero" name="numero" required>
+              <button type="submit">Converter</button>
+              <a href="./amostragem.html"><h2 type="text">Amostragem</h2></a>
+
+            <div id="resultado"></div>
+            </div>
+          </form>
+
+
+    
+    <footer class="footer">
+      copyrigth 2023 by Ana Luiza
+    </footer>
 
   <script src="./js/script.js"></script>
 
