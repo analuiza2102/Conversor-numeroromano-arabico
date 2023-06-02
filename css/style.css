@@ -1,6 +1,14 @@
+:root {
+  --cor-primaria: #A38560; /* marrom */
+  --cor-secundaria: #70161E; /* vinho */
+  --cor-preto: #0f0d0d; /* preto */
+  --cor-div:#D4AA7D; /* bege */
+}
+
+
 body {
     font-family: 'Prompt', sans-serif;
-    background-color: #A38560;
+    background-color: var(--cor-primaria) ;
     height: 100vh;
   }
   
@@ -23,9 +31,9 @@ body {
     margin-right: 2%;
     margin-left: 2%;
     width: auto;
-    border: #0f0d0d;
+    border: var(--cor-preto);
     border-radius: 10px;
-    background-color: #D4AA7D;
+    background-color: var(--cor-div);
   }
 
 
@@ -36,15 +44,15 @@ body {
   }
 
 h2{
-  font-size: 30px;
-  color: #e50800;
+  font-size: 20px;
+  color: var(--cor-secundaria);
   font-weight: bold;
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
 h2:hover{
-  color: #70161E;
+  color:var(--cor-preto);
 }
 
 #converterForm {
@@ -60,12 +68,12 @@ h2:hover{
     flex-direction: column;
     font-size: 30px;
     margin-bottom: 20px;
-    color: #70161E;
+    color: var(--cor-secundaria);
     text-align: center;
   }
 
   .subtitle{
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
     
@@ -80,7 +88,7 @@ h2:hover{
     padding: 20px;
     width: 200px;
     font-size: 20px;
-    background-color: #70161E;
+    background-color: var(--cor-secundaria);
     color: white;
     border: none;
     border-radius: 10px;
@@ -90,7 +98,7 @@ h2:hover{
 
   button:hover{
     transition: 1.5s;
-    background-color: #0f0d0d;
+    background-color: var(--cor-preto);
   }
 
 
@@ -99,6 +107,6 @@ h2:hover{
   font-size: 25px;
   margin-top: 20px;
   font-weight: bold;
-  color: #0f0d0d;
+  color: var(--cor-preto);
   margin: 5%;
 }

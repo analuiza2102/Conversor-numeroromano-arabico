@@ -4,7 +4,7 @@ function convertNumber() {
 
     if (/[IVXLCDM]/i.test(numero)) {
       // Se o número fornecido é um número romano
-      resultado = romanToArabic(numero).toString();
+      resultado = romanToArabic(numero.toUpperCase()).toString();
     } else {
       // Se o número fornecido é um número arábico
       resultado = arabicToRoman(parseInt(numero));
