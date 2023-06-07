@@ -3,7 +3,7 @@ Conversor de números romanos
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | *Conversor de números romanos*
-| :label: Tecnologias | HTML e Css(tecnologias utilizadas)
+| :label: Tecnologias | HTML, CSS e JavaScript
 | :rocket: URL         |[https://analuiza2102.github.io/Conversor-numeroromano-arabico/)
 
 
