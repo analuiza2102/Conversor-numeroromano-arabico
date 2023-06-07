@@ -9,7 +9,7 @@
 
 ## Referência
 
- - [Conversor no qual eu me baseie](https://conversor-de-medidas.com/matematica/romano-para-arabico/)
+ - [Conversor no qual eu me inspirei](https://conversor-de-medidas.com/matematica/romano-para-arabico/)
  
 
 
